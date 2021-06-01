@@ -1,0 +1,71 @@
+@media only screen and (min-width: 668px) { .carousel-item{ max-height:400px; background-position: 50% 50%; } }
+.carousel-item{
+    height: 500px;
+}
+h2{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.7rem;
+}
+.my-img-right{
+float: right;
+margin-left: 10px;
+width: 33%;
+}
+.my-img-left{
+    float: left;
+    margin-right: 10px;
+    width: 20%;
+}
+.img-right{
+    float: right;
+    margin-left: 29px;
+    width: 30%;
+}
+.logo-img{
+    width: 100px;
+}
+.logo-img>img{
+    width: 100%;
+}
+aside{
+    width: 300px;
+}
+.menu{
+    padding: 10px 0;
+}
+.menu>li{
+    margin: 10px;
+    padding: 10px;
+    list-style-type: none;
+    background-color: rgb(78, 78, 78);
+    transition: 0.5s;
+}
+.menu>li:hover{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+h5{
+background-color: rgba(228, 228, 228, 0.705);
+padding: 30px 10px 30px 20px;
+}
+h2{
+padding: 15px 10px 15px 20px;
+height: 60px;
+}
+.row-1{
+    background-color: rgba(199, 199, 199, 0.705);
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.my-card{
+    flex-basis: 300px;
+    background-color: rgba(180, 175, 164, 0.397);
+    margin: 20px;
+    padding: 10px;
+}
+.my-card>img{
+    width: 100%;
+}
